@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #8b8c89;
+    font-family: 'Noto Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup {
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 5px 30px 50px 30px;
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+#google {
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    width: 250px;
+}
+
+#google:hover {
+    background: #e2eafc;
+}
+
+#apple {
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    width: 250px;
+}
+
+#apple:hover {
+    background: #d3d3d3;
+}
+
+#email {
+    font-weight: bold;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    width: 250px;
+}
+
+.tos {
+    text-align: left;
+    margin: 0px auto 30px auto;
+}
+
+#already {
+    text-align: left;
+    margin: 0px auto 30px 40px;
+}
